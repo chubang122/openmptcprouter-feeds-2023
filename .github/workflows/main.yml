@@ -15,8 +15,8 @@ jobs:
   build:
     strategy:
       matrix:
-        OMR_TARGET: [r4s, r5s]
-        OMR_KERNEL: [5.4, 5.15, 6.1]
+        OMR_TARGET: [r5s]
+        OMR_KERNEL: [5.15]
     runs-on: ubuntu-latest
     continue-on-error: true
 
